@@ -1,12 +1,12 @@
-// // EXAMPLE 1 - Get the Sum of an Array of Numbers in JavaScript
+// EXAMPLE 1 - Get the Sum of an Array of Numbers in JavaScript
 
-// const arr = [5, 15, 45];
+const arr = [5, 15, 45];
 
-// const sum = arr.reduce((accumulator, value) => {
-//   return accumulator + value;
-// }, 0);
+const sum = arr.reduce((accumulator, value) => {
+  return accumulator + value;
+}, 0);
 
-// console.log(sum); // 👉️ 65
+console.log(sum); // 👉️ 65
 
 // ------------------------------------------------------------------
 
@@ -83,10 +83,10 @@
 
 // ------------------------------------------------------------------
 
-// EXAMPLE 7 - Get the Sum of an Array of Numbers using `lodash`
+// // EXAMPLE 7 - Get the Sum of an Array of Numbers using `lodash`
 
-import _ from 'lodash';
+// import _ from 'lodash';
 
-console.log(_.sum([1, 2, 3])); // 👉️ 6
+// console.log(_.sum([1, 2, 3])); // 👉️ 6
 
-console.log(_.sum([10, 20, 30])); // 👉️ 60
+// console.log(_.sum([10, 20, 30])); // 👉️ 60
